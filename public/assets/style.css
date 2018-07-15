@@ -1,0 +1,56 @@
+body{
+  background: skyblue;
+}
+h1{
+  margin: 30px auto 20px auto;
+  color: #fff;
+  text-align: center;
+}
+#todo-table{
+  background: #263e68cc;
+  width: 500px;
+  margin: 0px auto;
+  padding: 20px;
+}
+form{
+  text-align: center;
+  margin-top: 20px;
+}
+form input{
+  height: 30px;
+  width: 300px;
+  font-size: 25px;
+}
+form button{
+  height: 30px;
+  border-radius: 4px;
+  font-size: 20px;
+  color: brown;
+}
+
+ul{
+  list-style: none;
+  width: 410px;
+  margin: 0px auto;
+  padding: 0;
+}
+ul li{
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  color: ghostwhite;
+  border-bottom: 2px solid lightslategray;
+  text-indent: 1em;
+  margin-top: 10px;
+}
+ul li a{
+  text-decoration: none;
+  color: #ef3007;
+}
+ul li a:hover{
+  text-decoration: line-through;
+}
+
+.li-hover{
+  background: lightgrey;
+}
