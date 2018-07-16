@@ -17,7 +17,7 @@ todoController(app);
 
 
 app.get('/', function(req, res){
-  res.send('hello this is home page');
+  res.render('home');
 });
 
 //listen to port
